@@ -18,23 +18,32 @@
 
 //QUESTION 2 ---------------------------------------------
 
-const obj = {
-	foo: 1,
-	bar: 2,
-	fum: 3,
-	quux: 'none',
-	spam: true
-}
+// const obj = {
+//   foo: 1,
+//   bar: 2,
+//   fum: 3,
+//   quux: 'none',
+//   spam: true
+// };
 
-function showProperty(obj) {
+// function showProperty(obj) {
 
-	for (let key in obj) {
-		console.log(`${key}: ${obj[key]}`);
-	}
+//   for (let key in obj) {
+//     console.log(`${key}: ${obj[key]}`);
+//   }
 
-}
+// }
 
-showProperty(obj);
+// showProperty(obj);
+
+
+// //QUESTION 3 -----------------------------------------------
+
+// const hobbit = {
+//   meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
+// }
+
+// console.log(hobbit.meals[3]);
 
 
 
