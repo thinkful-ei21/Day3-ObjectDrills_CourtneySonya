@@ -83,27 +83,44 @@
 
 
 
+// Question 5 --------------------------------------------------------------
 
+const peopleList = [
+  {
+    name: 'Courtney',
+    jobTitle: 'Thinkful Student'
+  },
 
+  {
+    name: 'Sonya',
+    jobTitle: 'Farmer',
+    boss: 'Courtney'
+  },
 
+  {
+    name: 'Rich',
+    jobTitle: 'Teacher',
+    boss: 'Sonya'
+  },
 
+  {
+    name: 'Bill Nye',
+    jobTitle: 'Scientist',
+    boss: 'Nature'
+  }
 
+];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function showPersonAndJob(people) {
+  for (let i = 0; i < people.length; i++) {
+    if (!people[i].boss) {
+      console.log(`${people[i].jobTitle} ${people[i].name} doesn't report to anybody.`);
+    } else {
+      console.log(`${people[i].jobTitle} ${people[i].name} reports to ${people[i].boss}`);
+    }
+  }
+}
+showPersonAndJob(peopleList);
 
 
 
