@@ -37,13 +37,74 @@
 // showProperty(obj);
 
 
-// //QUESTION 3 -----------------------------------------------
+//QUESTION 3 -----------------------------------------------
 
 // const hobbit = {
 //   meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
 // }
 
 // console.log(hobbit.meals[3]);
+
+
+
+
+//QUESTION 4 -----------------------------------------------
+
+// const peopleList = [
+// 	{
+// 		name: 'Courtney',
+// 		jobTitle: 'Thinkful Student'
+// 	},
+
+// 	{
+// 		name: 'Sonya',
+// 		jobTitle: 'Farmer'
+// 	},
+
+// 	{
+// 		name: 'Rich',
+// 		jobTitle: 'Teacher'
+// 	},
+
+// 	{
+// 		name: 'Bill Nye',
+// 		jobTitle: 'Scientist'
+// 	}
+
+// ];
+
+// function showPersonAndJob(people) {
+// 	for (let i = 0; i < people.length; i++) {
+// 		console.log(`${people[i].name}: ${people[i].jobTitle}`);
+// 	}
+// }
+
+// showPersonAndJob(peopleList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
